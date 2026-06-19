@@ -1,0 +1,134 @@
+{
+  "name": "Prashil Kothari",
+  "profilePicture": "https://i.postimg.cc/wT6DGFTQ/Whats-App-Image-2026-06-11-at-00-16-04.png",
+  "backgroundImg": "https://plain-enam-prod-public.komododecks.com/202606/19/pGL7LSL0qhH2BE3GVtXQ/image.png",
+  "location": "Raleigh, North Carolina, USA",
+  "description": "Hi, I'm Prashil Chetanbhai Kothari, a Mechanical Engineering graduate student at NC State with a passion for building things that actually work and work well. My journey spans vehicle systems design, thermal analysis, and electro-mechanical manufacturing, with hands-on experience that goes well beyond the classroom. One of my proudest achievements was leading the chassis and drivetrain development for Team Kaizen at Shell Eco-Marathon Asia-Pacific & Middle East 2025, where our Battery Electric vehicle placed 5th among 13 international teams with a peak efficiency of 226.76 km/kWh. I've had the privilege of working in real manufacturing environments, co-authoring published research, and applying tools like SolidWorks, Ansys, and MATLAB to solve problems that matter. Whether I'm optimizing a drivetrain, simulating a thermodynamic system, or collaborating across teams, I bring curiosity, rigor, and a genuine love for engineering to everything I do. I'm always looking for opportunities to grow, contribute, and create solutions that make a real difference.",
+  "skills": [
+    ["SolidWorks (Advanced CAD)", "warning"],
+    ["Ansys FEA/CFD", "primary"],
+    ["GD&T & Tolerance Stack-Up Analysis", "danger"],
+    ["MATLAB/Simulink", "info"],
+    ["Lean Manufacturing & Six Sigma (DMAIC)", "warning"],
+    ["DFM/DFA (Design for Manufacturability/Assembly)", "warning"],
+    ["Thermal & Thermodynamic Systems Analysis", "info"],
+    ["Electro-Mechanical Assembly & Wiring Systems", "danger"],
+    ["Vehicle/Chassis & Drivetrain Design", "primary"],
+    ["Python Programming", "warning"]
+  ],
+  "about": "Mechanical Engineer | Product Development | Manufacturing & Quality | Simulation & Testing | Looking for Internship/Co-op Opportunities",
+  "education": [
+    {
+      "placeName": "Pandit Deendayal Energy University (PDEU)",
+      "qualification": "Bachelor of Engineering - BE in Computer Engineering",
+      "startYear": 2021,
+      "endYear": 2025,
+      "photo": "https://media.licdn.com/dms/image/v2/C4D0BAQFFOmBVtl84Vw/company-logo_200_200/company-logo_200_200/0/1674472804675/panditdeendayalenergyniversity_logo?e=1783555200&v=beta&t=fDLOAXTzoP-iHEBjjYFzS30oCKOpSwHvXvEMCtRKRSc",
+      "desc": ""
+    },
+    {
+      "placeName": "North Carolina State University",
+      "qualification": "Master of Computer Science",
+      "startYear": 2025,
+      "endYear": "Present",
+      "photo": "https://www.naspaa.org/sites/default/files/styles/ifde_wysiwyg__natural/public/images/2023-01/ncs700.jpg?itok=SS3wVM8x",
+      "desc": "Gujarat Technological University sends us for a 6-week program to Canada under the name International Experience Program. From 140 colleges, only 70 students were selected for the program."
+    }
+  ],
+  "recommendations": [
+    {
+      "name": "Kritika Gour",
+      "photo": "https://media.licdn.com/dms/image/C5603AQGLvxCnCWEmCA/profile-displayphoto-shrink_100_100/0/1623124182753?e=1683763200&v=beta&t=9ORUh3vYHZX6V9D_gK2yXXNW1k25-wJgMD6wi33lXAA",
+      "desc": "Shreyan is technology enthusiastic with strong communication skills. His knowledge &amp; solution-oriented approach will be a strong add-on to the brands he works with. I highly recommend him."
+    },
+    {
+      "name": "Michelle Jones",
+      "photo": "https://media.licdn.com/dms/image/C4E03AQFOQ36N1kGMrQ/profile-displayphoto-shrink_100_100/0/1573070657540?e=1683763200&v=beta&t=KqVDko2088fhd_-ZLHmmvh4af-bIVREFaJbMuqweHyY",
+      "desc": "Shreyan joined the project in the final stages prior to transition to a new system. His knowledge of Google products shone out, and his dedication to deliver was amazing :-) hope to work with you again in the future."
+    }
+  ],
+  "workExperience": [
+    {
+      "companyName": "Integra Engineering India Limited",
+      "position": "Mechanical Engineer Intern",
+      "photo": "https://media.licdn.com/dms/image/v2/C4D0BAQHelb6aaxGg9g/company-logo_200_200/company-logo_200_200/0/1659772579521?e=1783555200&v=beta&t=_CB2vmuuFQdVKc_Bx52q_chu9whZhBGBPR0uctCYEcM",
+      "startYear": "May 2024",
+      "endYear": "July 2024",
+      "desc": [
+        "Performed manufacturing, inspection, and functional testing of rolling stock components for locomotive propulsion systems and metro interiors, covering sheet metal fabrication and electro-mechanical assembly including wiring harnesses, connectors, and multi-stage electrical sub-assemblies across multi-stage production lines; maintained production documentation including Bills of Materials and assembly traceability records.",
+        "Ensured compliance with EN 15085, DIN 6701, and ISO 9001:2015 railway standards by conducting process audits and maintaining traceability records for OEM supply chains; contributed to zero compliance failures across audit cycles during the internship period.",
+        "Applied DMAIC root cause analysis and Lean Manufacturing principles to sheet metal and wiring assembly processes, identified recurring defect sources, eliminated non-value-added steps, and contributed to reduced rework rates and improved cycle times across targeted assembly stations."
+      ],
+      "showCar": false
+    },
+    {
+      "companyName": "Team Kaizen – Shell Eco-Marathon",
+      "position": "Mechanical & Sponsorship Lead",
+      "photo": "https://i.postimg.cc/nzf8cK8N/Whats-App-Image-2026-05-20-at-10-35-46.jpg",
+      "startYear": "April 2022",
+      "endYear": "April 2025",
+      "desc": [
+        "Achieved 5th place out of 13 international teams at Shell Eco-Marathon Asia-Pacific & Middle East 2025 (Doha, Qatar), Battery Electric Prototype category, delivering a peak efficiency of 226.76 km/kWh at a 50-team, 600-participant global event.",
+        "Designed and fabricated chassis and drivetrain components in SolidWorks, optimizing weight distribution and aerodynamics; manufactured parts in-house using lathe, milling, drilling, and grinding operations alongside MIG/TIG and arc welding, reducing outsourcing costs and maintaining tighter tolerances on critical components through tolerance stack-up analysis on drivetrain and chassis assemblies to ensure fit and function across manufacturing variations; mentored junior engineers in CAD modeling and fabrication workflows over a 3-year tenure.",
+        "Secured multiple corporate sponsorships through targeted outreach and formal proposal writing; managed all official documentation and event logistics for the team’s international competition, representing the university on a global stage."
+      ],
+      "showCar": true
+    }
+  ],
+  "projects": [
+    {
+      "name": "Comparative Analysis of SLIP & MMS Models for Quadrupedal Locomotion",
+      "photo": "https://www.image2url.com/r2/default/files/1781845489235-46b512f5-c7e6-4857-b489-344f81b827d4.jpeg",
+      "startYear": "Jan 2025",
+      "endYear": "May 2025",
+      "media": [
+        "https://www.image2url.com/r2/default/videos/1781845275530-23584aec-a832-4770-a206-fba7529cdd9c.mp4"
+      ],
+      "summary": "Developed and compared SLIP(Spring-Loaded Inverted Pendulum) and MMS(Mass-Mass Spring) dynamic models for quadrupedal locomotion in MATLAB/Simulink, integrating damper elements to simulate energy dissipation and analyze stride characteristics across gait cycles; validated results against real-world cheetah kinematics extracted via Tracker, correlating model predictions with observed limb dynamics to assess biological fidelity of each model. \n Tools: MATLAB, Simulink, Tracker"
+    },
+    {
+      "name": "Exergy Analysis of a Liquid Desiccant Evaporative Cooling System",
+      "photo": "https://www.image2url.com/r2/default/files/1781845638637-813f3e40-fa00-4739-951e-f3025d500064.jpg",
+      "startYear": "Sep 2024",
+      "endYear": "Nov 2024",
+      "summary": "Simulated a liquid desiccant evaporative cooling system in EES to quantify exergy destruction and evaluate second-law thermodynamic efficiency, identifying optimal parameter ranges - including solution concentration, air flow rate, and regeneration temperature - that maximized system COP; validated against published experimental benchmarks from peer-reviewed literature. \n Tools: Engineering Equation Solver (EES), Simulink"
+    },
+    {
+      "name": "Co-authored Research Paper – Vendor Selection Methodologies",
+      "photo": "https://www.image2url.com/r2/default/files/1781893200979-3639b7e3-5f19-4b0e-bdd8-bc684a353215.png",
+      "startYear": "Oct 2024",
+      "endYear": "",
+      "link": "https://drive.google.com/file/d/1UdExRB-996nEM1mpkTT0FUJVO-NOShuW/view?pli=1",
+      "linkCaption": "View Research Paper ",
+      "summary": "I co-authored and presented this research paper at the 1st IEOM World Congress in Detroit, Michigan (October 2024), where it was accepted through a double-blind peer review process from an international pool of submissions. \n The paper explores the key tools and methodologies organizations use to evaluate and select vendors, including the Analytical Hierarchy Process (AHP), Weighted Scoring Models, Supplier Evaluation Matrices like the Kraljic Matrix, Total Cost of Ownership (TCO) analysis, and hybrid approaches that combine AHP with Artificial Neural Networks.\n Working on this paper gave me a deeper appreciation for how data-driven decision-making intersects with supply chain strategy, and it was a rewarding experience to contribute to academic research alongside my engineering coursework."
+    }
+  ],
+  "awards": [
+    {
+      "title": "Open Source - Expertiza",
+      "photo": "https://i.ibb.co/r21qbnwQ/Screenshot-2025-02-20-142908.png",
+      "link": "https://github.com/expertiza/expertiza",
+      "issuedOn": "Jan 2025 - Present",
+      "description": "Collaborated with a team to develop comprehensive full-stack web solutions, implementing an independent frontend in React & Applied object oriented principles & design patterns in Ruby, resulting in enhanced scalability & maintainability of the project. "
+    },
+    {
+      "title": "ViharEstate - A Real Estate app",
+      "photo": "https://i.ibb.co/LD6Ts6VJ/Screenshot-2025-02-20-144122.png",
+      "issuedOn": "Mar 2024 - May 2024",
+      "link": "https://real-estate-qaru.onrender.com/",
+      "description": "Developed a full-stack real estate platform that allows users to buy, sell, and rent properties, with an intuitive interface and efficient backend systems. Utilized React and Redux for a responsive frontend, Node.js, Express, and JWT for secure authentication, and MongoDB for database management. Integrated Google OAuth for login and Firebase for managing property images, ensuring a seamless user experience and robust functionality. "
+    },
+    {
+      "title": "MoviesGPT – A Netflix Clone",
+      "photo": "https://i.ibb.co/Y4Q4r9LP/Screenshot-2025-02-20-144003.png",
+      "issuedOn": "Nov 2023 - Dec 2023",
+      "link": "https://movies-gpt-2712.netlify.app/",
+      "description": "This movie exploration platform allows users to browse and discover movies with detailed information pulled from the TMDB API. The app integrates the OpenAI API for generating intelligent movie recommendations, while Firebase handles user authentication. The platform mimics the recommendation system used in Netflix to enhance user experience. "
+    }
+  ],
+  "languages": [
+    ["English", "warning"],
+    ["Hindi", "info"],
+    ["Gujarati", "danger"]
+  ]
+}

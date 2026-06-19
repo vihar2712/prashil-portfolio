@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <link rel="icon" href="assets/img/logo.png" />
+    <link
+      rel="stylesheet"
+      href="assets/vendors/themify-icons/css/themify-icons.css"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title></title>
+    <style>
+      /* ═══ ANIMATIONS ═══ */
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+      @keyframes floatY {
+        0%,
+        100% {
+          transform: translateY(0);
+        }
+        50% {
+          transform: translateY(-12px);
+        }
+      }
+      @keyframes spinW {
+        to {
+          transform: rotate(360deg);
+        }
+      }
+
+      /* ═══ HERO RIGHT ═══ */
+      .hero-right {
+        margin: auto;
+        margin-bottom: 60px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        opacity: 0;
+        animation: fadeIn 1.2s 0.8s forwards;
+      }
+
+      /* Car wrap + SVG */
+      .car-wrap {
+        width: 100%;
+        max-width: 540px;
+        position: relative;
+      }
+      .car-svg {
+        width: 100%;
+        height: auto;
+        animation: floatY 6s ease-in-out infinite;
+      }
+
+      /* Floating telemetry labels */
+      .tl-label {
+        position: absolute;
+        font-family: var(--font-m);
+        font-size: 10.5px;
+        color: white;
+        background: rgba(4, 7, 15, 0.88);
+        border: 1px solid rgba(79, 142, 247, 0.3);
+        border-radius: 5px;
+        padding: 6px 10px;
+        letter-spacing: 0.04em;
+        white-space: nowrap;
+        pointer-events: none;
+      }
+      .tl-label::after {
+        content: "";
+        position: absolute;
+        width: 24px;
+        height: 1px;
+        background: rgba(79, 142, 247, 0.4);
+      }
+      .tl-l1 {
+        top: 25%;
+        left: -8px;
+        animation: floatY 5s 0s ease-in-out infinite;
+      }
+      .t1-l5 {
+        top: 10%;
+        left: -8px;
+        animation: floatY 5s 0s ease-in-out infinite;
+      }
+      .tl-l1::after {
+        right: -24px;
+        top: 50%;
+      }
+      .tl-l2 {
+        top: 32%;
+        right: -8px;
+        animation: floatY 5s 1.4s ease-in-out infinite;
+      }
+      .tl-l2::after {
+        left: -24px;
+        top: 50%;
+      }
+
+      /* Avatar card */
+      .hero-avatar {
+        display: flex;
+        align-items: center;
+        gap: 14px;
+        margin-top: 24px;
+        padding: 14px 20px;
+        background: var(--card);
+        border: 1px solid var(--border);
+        border-radius: 12px;
+        backdrop-filter: blur(10px);
+        transition: border-color 0.3s;
+      }
+      .hero-avatar:hover {
+        border-color: rgba(79, 142, 247, 0.25);
+      }
+      .avatar-name {
+        font-family: var(--font-d);
+        font-size: 14px;
+        font-weight: 700;
+        color: var(--text);
+      }
+      .avatar-sub {
+        font-family: var(--font-m);
+        font-size: 10px;
+        color: var(--text-muted);
+        margin-top: 2px;
+        letter-spacing: 0.04em;
+      }
+      .avatar-pill {
+        font-family: var(--font-m);
+        font-size: 9.5px;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: white;
+        background: rgba(79, 142, 247, 0.1);
+        border: 1px solid rgba(79, 142, 247, 0.25);
+        border-radius: 3px;
+        padding: 4px 9px;
+        white-space: nowrap;
+        margin-left: auto;
+      }
+
+      /* ═══ RESPONSIVE ═══ */
+      @media (max-width: 540px) {
+        .tl-label {
+          display: none;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
+    <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
+    <script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
+  </body>
+</html>

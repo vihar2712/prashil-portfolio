@@ -8,7 +8,7 @@ import About from "./components/about";
 import Skills from "./components/skills";
 import Experience from "./components/experience";
 import Education from "./components/education";
-import TopProjects from "./components/topProjects";
+// import TopProjects from "./components/topProjects";
 import HireMe from "./components/hireme";
 import Projects from "./components/projects";
 import Contact from "./components/contact";

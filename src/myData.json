@@ -92,8 +92,8 @@
     {
       "name": "Exergy Analysis of a Liquid Desiccant Evaporative Cooling System",
       "photo": "https://www.image2url.com/r2/default/files/1781845638637-813f3e40-fa00-4739-951e-f3025d500064.jpg",
-      "startYear": "May 2024",
-      "endYear": "Jan 2024",
+      "startYear": "Jan 2024",
+      "endYear": "May 2024",
       "summary": "For this project, I worked off a peer-reviewed study on liquid desiccant evaporative cooling and rebuilt its simulation from scratch in EES and Simulink to see if I could reproduce the published results. Once validated, I went a step further, running my own input parameters to explore how factors like solution concentration, air flow rate, and regeneration temperature affected system performance, using exergy analysis to identify where the real thermodynamic losses were happening. The process helped me pinpoint the optimal operating ranges that maximized COP, and it gave me a much deeper appreciation for how second-law thinking can reveal inefficiencies that a basic energy balance would miss entirely."
     },
     {

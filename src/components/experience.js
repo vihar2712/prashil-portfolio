@@ -37,13 +37,13 @@ const Experience = () => {
 
                   {work.media && <MediaViewer media={work.media} />}
                   {work.showCar && (
-                    <div class="hero-right">
-                      <div class="car-wrap">
-                        <div class="tl-label tl-l1">⚡ Efficiency +15%</div>
-                        <div class="tl-label tl-l2">🏆 #1 India · #5 Asia</div>
-                        <div class="tl-label t1-l5">📊 227 km/kWh</div>
+                    <div className="hero-right">
+                      <div className="car-wrap">
+                        <div className="tl-label tl-l1">⚡ Efficiency +15%</div>
+                        <div className="tl-label tl-l2">🏆 #1 India · #5 Asia</div>
+                        <div className="tl-label t1-l5">📊 227 km/kWh</div>
                         <svg
-                          class="car-svg"
+                          className="car-svg"
                           viewBox="0 0 580 240"
                           fill="none"
                           xmlns="http://www.w3.org/2000/svg"
@@ -58,13 +58,13 @@ const Experience = () => {
                             >
                               <stop
                                 offset="0%"
-                                stop-color="#695aa6"
-                                stop-opacity="0.82"
+                                stopColor="#695aa6"
+                                stopOpacity="0.82"
                               />
                               <stop
                                 offset="100%"
-                                stop-color="#695aa6"
-                                stop-opacity="0.62"
+                                stopColor="#695aa6"
+                                stopOpacity="0.62"
                               />
                             </linearGradient>
                             <linearGradient
@@ -76,18 +76,18 @@ const Experience = () => {
                             >
                               <stop
                                 offset="0%"
-                                stop-color="#695aa6"
-                                stop-opacity="0.9"
+                                stopColor="#695aa6"
+                                stopOpacity="0.9"
                               />
                               <stop
                                 offset="50%"
-                                stop-color="#695aa6"
-                                stop-opacity="1.0"
+                                stopColor="#695aa6"
+                                stopOpacity="1.0"
                               />
                               <stop
                                 offset="100%"
-                                stop-color="#695aa6"
-                                stop-opacity="0.9"
+                                stopColor="#695aa6"
+                                stopOpacity="0.9"
                               />
                             </linearGradient>
                             <linearGradient
@@ -99,13 +99,13 @@ const Experience = () => {
                             >
                               <stop
                                 offset="0%"
-                                stop-color="#695aa6"
-                                stop-opacity="0.5"
+                                stopColor="#695aa6"
+                                stopOpacity="0.5"
                               />
                               <stop
                                 offset="100%"
-                                stop-color="#695aa6"
-                                stop-opacity="0"
+                                stopColor="#695aa6"
+                                stopOpacity="0"
                               />
                             </linearGradient>
                             <radialGradient
@@ -116,13 +116,13 @@ const Experience = () => {
                             >
                               <stop
                                 offset="0%"
-                                stop-color="#695aa6"
-                                stop-opacity="0.5"
+                                stopColor="#695aa6"
+                                stopOpacity="0.5"
                               />
                               <stop
                                 offset="100%"
-                                stop-color="#695aa6"
-                                stop-opacity="0"
+                                stopColor="#695aa6"
+                                stopOpacity="0"
                               />
                             </radialGradient>
                             <filter
@@ -200,14 +200,14 @@ const Experience = () => {
                             />
                           </ellipse>
 
-                          <g clip-path="url(#cc)" opacity="0.35">
+                          <g clipPath="url(#cc)" opacity="0.35">
                             <line
                               x1="10"
                               y1="122"
                               x2="60"
                               y2="122"
                               stroke="url(#cGrad2)"
-                              stroke-width="1.2"
+                              strokeWidth="1.2"
                             >
                               <animate
                                 attributeName="x1"
@@ -234,7 +234,7 @@ const Experience = () => {
                               x2="48"
                               y2="138"
                               stroke="#695aa6"
-                              stroke-width="0.9"
+                              strokeWidth="0.9"
                             >
                               <animate
                                 attributeName="x1"
@@ -261,7 +261,7 @@ const Experience = () => {
                               x2="55"
                               y2="154"
                               stroke="#695aa6"
-                              stroke-width="0.7"
+                              strokeWidth="0.7"
                             >
                               <animate
                                 attributeName="x1"
@@ -296,7 +296,7 @@ const Experience = () => {
                  L 60,198 C 54,198 52,194 52,188 Z"
                             fill="url(#cGrad)"
                             stroke="#695aa6"
-                            stroke-width="1.5"
+                            strokeWidth="1.5"
                             filter="url(#gGlow)"
                           />
 
@@ -310,10 +310,10 @@ const Experience = () => {
                           <path
                             d="M 160,108 C 190,92 222,80 260,74 L 312,72 C 348,72 378,80 406,94 L 434,108"
                             stroke="#695aa6"
-                            stroke-width="1.8"
+                            strokeWidth="1.8"
                             fill="none"
                             opacity="0.55"
-                            stroke-linecap="round"
+                            strokeLinecap="round"
                           />
 
                           <path
@@ -321,7 +321,7 @@ const Experience = () => {
                  L 420,92 C 400,80 374,72 340,68 L 278,66 C 244,66 216,76 192,92 Z"
                             fill="#070C1A"
                             stroke="#695aa6"
-                            stroke-width="1"
+                            strokeWidth="1"
                             opacity="0.92"
                           />
                           <path
@@ -329,23 +329,23 @@ const Experience = () => {
                             fill="#695aa6"
                             opacity="0.14"
                             stroke="#695aa6"
-                            stroke-width="0.8"
-                            stroke-linejoin="round"
+                            strokeWidth="0.8"
+                            strokeLinejoin="round"
                           />
                           <path
                             d="M 320,54 L 350,56 C 372,60 392,70 410,84 L 390,90 Z"
                             fill="#695aa6"
                             opacity="0.12"
                             stroke="#695aa6"
-                            stroke-width="0.8"
-                            stroke-linejoin="round"
+                            strokeWidth="0.8"
+                            strokeLinejoin="round"
                           />
                           <path
                             d="M 276,54 L 318,54 L 316,90 L 278,90 Z"
                             fill="#695aa6"
                             opacity="0.1"
                             stroke="#695aa6"
-                            stroke-width="0.8"
+                            strokeWidth="0.8"
                           />
                           <line
                             x1="278"
@@ -353,7 +353,7 @@ const Experience = () => {
                             x2="268"
                             y2="144"
                             stroke="#695aa6"
-                            stroke-width="0.8"
+                            strokeWidth="0.8"
                             opacity="0.4"
                           />
                           <line
@@ -362,20 +362,20 @@ const Experience = () => {
                             x2="326"
                             y2="144"
                             stroke="#695aa6"
-                            stroke-width="0.8"
+                            strokeWidth="0.8"
                             opacity="0.4"
                           />
 
                           <path
                             d="M 200,100 L 212,144"
                             stroke="#695aa6"
-                            stroke-width="0.6"
+                            strokeWidth="0.6"
                             opacity="0.3"
                           />
                           <path
                             d="M 380,100 L 366,144"
                             stroke="#695aa6"
-                            stroke-width="0.6"
+                            strokeWidth="0.6"
                             opacity="0.3"
                           />
 
@@ -409,8 +409,8 @@ const Experience = () => {
                           <path
                             d="M 58,154 L 76,146"
                             stroke="#695aa6"
-                            stroke-width="2"
-                            stroke-linecap="round"
+                            strokeWidth="2"
+                            strokeLinecap="round"
                             opacity="0.7"
                           >
                             <animate
@@ -444,8 +444,8 @@ const Experience = () => {
                           <path
                             d="M 505,162 L 522,155"
                             stroke="#695aa6"
-                            stroke-width="2"
-                            stroke-linecap="round"
+                            strokeWidth="2"
+                            strokeLinecap="round"
                             opacity="0.6"
                           >
                             <animate
@@ -473,7 +473,7 @@ const Experience = () => {
                             r="36"
                             fill="#040810"
                             stroke="#695aa6"
-                            stroke-width="2"
+                            strokeWidth="2"
                           />
                           <circle
                             cx="144"
@@ -481,7 +481,7 @@ const Experience = () => {
                             r="28"
                             fill="#040810"
                             stroke="#695aa6"
-                            stroke-width="0.8"
+                            strokeWidth="0.8"
                             opacity="0.45"
                           />
                           <circle
@@ -490,7 +490,7 @@ const Experience = () => {
                             r="20"
                             fill="#040810"
                             stroke="#695aa6"
-                            stroke-width="0.5"
+                            strokeWidth="0.5"
                             opacity="0.25"
                           />
                           <g
@@ -506,8 +506,8 @@ const Experience = () => {
                               x2="144"
                               y2="182"
                               stroke="#695aa6"
-                              stroke-width="2.2"
-                              stroke-linecap="round"
+                              strokeWidth="2.2"
+                              strokeLinecap="round"
                             />
                             <line
                               x1="144"
@@ -515,8 +515,8 @@ const Experience = () => {
                               x2="144"
                               y2="226"
                               stroke="#695aa6"
-                              stroke-width="2.2"
-                              stroke-linecap="round"
+                              strokeWidth="2.2"
+                              strokeLinecap="round"
                             />
                             <line
                               x1="116"
@@ -524,8 +524,8 @@ const Experience = () => {
                               x2="128"
                               y2="198"
                               stroke="#695aa6"
-                              stroke-width="2.2"
-                              stroke-linecap="round"
+                              strokeWidth="2.2"
+                              strokeLinecap="round"
                             />
                             <line
                               x1="160"
@@ -533,8 +533,8 @@ const Experience = () => {
                               x2="172"
                               y2="198"
                               stroke="#695aa6"
-                              stroke-width="2.2"
-                              stroke-linecap="round"
+                              strokeWidth="2.2"
+                              strokeLinecap="round"
                             />
                             <line
                               x1="124"
@@ -542,8 +542,8 @@ const Experience = () => {
                               x2="132"
                               y2="186"
                               stroke="#695aa6"
-                              stroke-width="1.6"
-                              stroke-linecap="round"
+                              strokeWidth="1.6"
+                              strokeLinecap="round"
                               opacity="0.65"
                             />
                             <line
@@ -552,8 +552,8 @@ const Experience = () => {
                               x2="164"
                               y2="218"
                               stroke="#695aa6"
-                              stroke-width="1.6"
-                              stroke-linecap="round"
+                              strokeWidth="1.6"
+                              strokeLinecap="round"
                               opacity="0.65"
                             />
                             <line
@@ -562,8 +562,8 @@ const Experience = () => {
                               x2="156"
                               y2="186"
                               stroke="#695aa6"
-                              stroke-width="1.6"
-                              stroke-linecap="round"
+                              strokeWidth="1.6"
+                              strokeLinecap="round"
                               opacity="0.65"
                             />
                             <line
@@ -572,8 +572,8 @@ const Experience = () => {
                               x2="132"
                               y2="218"
                               stroke="#695aa6"
-                              stroke-width="1.6"
-                              stroke-linecap="round"
+                              strokeWidth="1.6"
+                              strokeLinecap="round"
                               opacity="0.65"
                             />
                           </g>
@@ -592,7 +592,7 @@ const Experience = () => {
                             r="36"
                             fill="#040810"
                             stroke="#695aa6"
-                            stroke-width="2"
+                            strokeWidth="2"
                           />
                           <circle
                             cx="432"
@@ -600,7 +600,7 @@ const Experience = () => {
                             r="28"
                             fill="#040810"
                             stroke="#695aa6"
-                            stroke-width="0.8"
+                            strokeWidth="0.8"
                             opacity="0.45"
                           />
                           <circle
@@ -609,7 +609,7 @@ const Experience = () => {
                             r="20"
                             fill="#040810"
                             stroke="#695aa6"
-                            stroke-width="0.5"
+                            strokeWidth="0.5"
                             opacity="0.25"
                           />
                           <g
@@ -625,8 +625,8 @@ const Experience = () => {
                               x2="432"
                               y2="182"
                               stroke="#695aa6"
-                              stroke-width="2.2"
-                              stroke-linecap="round"
+                              strokeWidth="2.2"
+                              strokeLinecap="round"
                             />
                             <line
                               x1="432"
@@ -634,8 +634,8 @@ const Experience = () => {
                               x2="432"
                               y2="226"
                               stroke="#695aa6"
-                              stroke-width="2.2"
-                              stroke-linecap="round"
+                              strokeWidth="2.2"
+                              strokeLinecap="round"
                             />
                             <line
                               x1="404"
@@ -643,8 +643,8 @@ const Experience = () => {
                               x2="416"
                               y2="198"
                               stroke="#695aa6"
-                              stroke-width="2.2"
-                              stroke-linecap="round"
+                              strokeWidth="2.2"
+                              strokeLinecap="round"
                             />
                             <line
                               x1="448"
@@ -652,8 +652,8 @@ const Experience = () => {
                               x2="460"
                               y2="198"
                               stroke="#695aa6"
-                              stroke-width="2.2"
-                              stroke-linecap="round"
+                              strokeWidth="2.2"
+                              strokeLinecap="round"
                             />
                             <line
                               x1="412"
@@ -661,8 +661,8 @@ const Experience = () => {
                               x2="420"
                               y2="186"
                               stroke="#695aa6"
-                              stroke-width="1.6"
-                              stroke-linecap="round"
+                              strokeWidth="1.6"
+                              strokeLinecap="round"
                               opacity="0.65"
                             />
                             <line
@@ -671,8 +671,8 @@ const Experience = () => {
                               x2="452"
                               y2="218"
                               stroke="#695aa6"
-                              stroke-width="1.6"
-                              stroke-linecap="round"
+                              strokeWidth="1.6"
+                              strokeLinecap="round"
                               opacity="0.65"
                             />
                             <line
@@ -681,8 +681,8 @@ const Experience = () => {
                               x2="444"
                               y2="186"
                               stroke="#695aa6"
-                              stroke-width="1.6"
-                              stroke-linecap="round"
+                              strokeWidth="1.6"
+                              strokeLinecap="round"
                               opacity="0.65"
                             />
                             <line
@@ -691,8 +691,8 @@ const Experience = () => {
                               x2="420"
                               y2="218"
                               stroke="#695aa6"
-                              stroke-width="1.6"
-                              stroke-linecap="round"
+                              strokeWidth="1.6"
+                              strokeLinecap="round"
                               opacity="0.65"
                             />
                           </g>
@@ -708,14 +708,14 @@ const Experience = () => {
                           <path
                             d="M 108,158 C 116,144 128,136 144,132 C 160,128 174,134 184,146"
                             stroke="#695aa6"
-                            stroke-width="1"
+                            strokeWidth="1"
                             fill="none"
                             opacity="0.38"
                           />
                           <path
                             d="M 396,146 C 406,134 420,128 432,132 C 444,136 456,144 465,158"
                             stroke="#695aa6"
-                            stroke-width="1"
+                            strokeWidth="1"
                             fill="none"
                             opacity="0.38"
                           />
@@ -728,7 +728,7 @@ const Experience = () => {
                             rx="2"
                             fill="url(#cGrad2)"
                             opacity="0.07"
-                            clip-path="url(#cc)"
+                            clipPath="url(#cc)"
                           >
                             <animateTransform
                               attributeName="transform"
@@ -788,17 +788,17 @@ const Experience = () => {
                             rx="4"
                             fill="rgba(79,142,247,0.1)"
                             stroke="#fff"
-                            stroke-width="0.8"
+                            strokeWidth="0.8"
                             opacity="0.8"
                           />
                           <text
                             x="288"
                             y="119"
-                            text-anchor="middle"
+                            textAnchor="middle"
                             fill="#fff"
-                            font-family="DM Mono, monospace"
-                            font-size="8"
-                            letter-spacing="1"
+                            fontFamily="DM Mono, monospace"
+                            fontSize="8"
+                            letterSpacing="1"
                           >
                             227 km/kWh
                           </text>

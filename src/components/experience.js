@@ -1,4 +1,5 @@
 import data from "../myData.json";
+import MediaViewer from "./MediaViewer";
 
 const Experience = () => {
   return (
@@ -33,6 +34,8 @@ const Experience = () => {
                       </li>
                     ))}
                   </ul>
+
+                  {work.media && <MediaViewer media={work.media} />}
                   {work.showCar && (
                     <div class="hero-right">
                       <div class="car-wrap">

@@ -1,35 +1,43 @@
 import data from "../myData.json";
+import MediaViewer from "./MediaViewer";
 const TopProjects = () => {
   return (
-    <section className="section" id="top-projects">
+    <section className="section" id="certificates">
       <div className="container text-center">
-        <h1 className="section-title mb-4">
-          Top 3 Projects ({" "}
-          <a href="#projects" style={{ textDecoration: "underline" }}>
-            {" "}
-            See other projects{" "}
-          </a>
-          )
-        </h1>
-        <div className="pricing-wrapper all-awards">
-          {data.awards.map((award, id) => {
+        <h1 className="mb-4">Certificates</h1>
+        <div className="section-title">
+          {data.certificates.map((certificate, id) => {
             return (
-              <div key={id} className="pricing-card">
-                <div className="pricing-card-header">
+              <div key={id} className="blog-card">
+                <div className="blog-card-header">
                   <img
-                    src={award.photo}
-                    alt={award.title}
-                    width={"100%"}
-                    style={{ borderRadius: "8px" }}
-                    className="zoom"
+                    src={certificate.photo}
+                    className="blog-card-img w-100 zoom about-img border"
+                    alt=""
+                    style={{maxHeight:"400px"}}
                   />
-                  <a href={award.link} target="_blank" rel="noreferrer">
-                    <h3 className="mt-4">{award.title}</h3>
-                  </a>
-                  <span className="display-6">{award.issuedOn}</span>
                 </div>
-                <div className="pricing-card-body mt-2">
-                  <p>{award.description}</p>
+                <div className="blog-card-body">
+                  <h5 className="blog-card-title">{certificate.title}</h5>
+                  <p className="text-primary mb-1">
+                    {certificate.startYear}
+                    {certificate.endYear ? " - " : ""}
+                    {certificate.endYear}
+                  </p>
+                  <p className="whitespace-pre-line">{certificate.description}</p>
+                  {certificate.media && <MediaViewer media={certificate.media} />}
+
+                  {certificate.link && (
+                    <a
+                      href={certificate.link}
+                      className="btn btn-primary h4"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      {certificate.linkCaption}
+                      <i className="ti-angle-double-right"></i>
+                    </a>
+                  )}
                 </div>
               </div>
             );

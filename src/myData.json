@@ -6,14 +6,14 @@
   "description": "Hi, I'm Prashil Chetanbhai Kothari, a Mechanical Engineering graduate student at NC State with a passion for building things that actually work and work well. My journey spans vehicle systems design, thermal analysis, and electro-mechanical manufacturing, with hands-on experience that goes well beyond the classroom. One of my proudest achievements was leading the chassis and drivetrain development for Team Kaizen at Shell Eco-Marathon Asia-Pacific & Middle East 2025, where our Battery Electric vehicle placed 5th among 13 international teams with a peak efficiency of 226.76 km/kWh. I've had the privilege of working in real manufacturing environments, co-authoring published research, and applying tools like SolidWorks, Ansys, and MATLAB to solve problems that matter. Whether I'm optimizing a drivetrain, simulating a thermodynamic system, or collaborating across teams, I bring curiosity, rigor, and a genuine love for engineering to everything I do. I'm always looking for opportunities to grow, contribute, and create solutions that make a real difference.",
   "skills": [
     ["SolidWorks (Advanced CAD)", "warning"],
-    ["Ansys FEA/CFD", "primary"],
+    ["Ansys FEA/CFD", "info"],
     ["GD&T & Tolerance Stack-Up Analysis", "danger"],
     ["MATLAB/Simulink", "info"],
     ["Lean Manufacturing & Six Sigma (DMAIC)", "warning"],
     ["DFM/DFA (Design for Manufacturability/Assembly)", "warning"],
     ["Thermal & Thermodynamic Systems Analysis", "info"],
     ["Electro-Mechanical Assembly & Wiring Systems", "danger"],
-    ["Vehicle/Chassis & Drivetrain Design", "primary"],
+    ["Vehicle/Chassis & Drivetrain Design", "info"],
     ["Python Programming", "warning"]
   ],
   "about": "Mechanical Engineer | Product Development | Manufacturing & Quality | Simulation & Testing | Looking for Internship/Co-op Opportunities",
@@ -54,6 +54,9 @@
       "photo": "https://media.licdn.com/dms/image/v2/C4D0BAQHelb6aaxGg9g/company-logo_200_200/company-logo_200_200/0/1659772579521?e=1783555200&v=beta&t=_CB2vmuuFQdVKc_Bx52q_chu9whZhBGBPR0uctCYEcM",
       "startYear": "May 2024",
       "endYear": "July 2024",
+      "media": [
+        "https://plain-enam-prod-public.komododecks.com/202606/25/NnulvMLOlfxBIAbreVz5/image.png"
+      ],
       "desc": [
         "Performed manufacturing, inspection, and functional testing of rolling stock components for locomotive propulsion systems and metro interiors, covering sheet metal fabrication and electro-mechanical assembly including wiring harnesses, connectors, and multi-stage electrical sub-assemblies across multi-stage production lines; maintained production documentation including Bills of Materials and assembly traceability records.",
         "Ensured compliance with EN 15085, DIN 6701, and ISO 9001:2015 railway standards by conducting process audits and maintaining traceability records for OEM supply chains; contributed to zero compliance failures across audit cycles during the internship period.",
@@ -84,14 +87,14 @@
       "media": [
         "https://www.image2url.com/r2/default/videos/1781845275530-23584aec-a832-4770-a206-fba7529cdd9c.mp4"
       ],
-      "summary": "Developed and compared SLIP(Spring-Loaded Inverted Pendulum) and MMS(Mass-Mass Spring) dynamic models for quadrupedal locomotion in MATLAB/Simulink, integrating damper elements to simulate energy dissipation and analyze stride characteristics across gait cycles; validated results against real-world cheetah kinematics extracted via Tracker, correlating model predictions with observed limb dynamics to assess biological fidelity of each model. \n Tools: MATLAB, Simulink, Tracker"
+      "summary": "Designed and validated two dynamic leg models: SLIP and a custom Mass-Mass-Spring (MMS) system with integrated damping to simulate high-speed quadrupedal locomotion in MATLAB/Simulink. Derived the governing equations of motion from first principles using Lagrangian mechanics, then built and tuned both models against real-world kinematic data extracted from high-speed cheetah footage using Tracker. The MMS model achieved a 3.88 Nm bending moment at the hip (vs. 0 Nm for SLIP), accurately replicating the trunk dynamics and energy dissipation seen in biological systems, a key insight for designing more stable, efficient legged robots."
     },
     {
       "name": "Exergy Analysis of a Liquid Desiccant Evaporative Cooling System",
       "photo": "https://www.image2url.com/r2/default/files/1781845638637-813f3e40-fa00-4739-951e-f3025d500064.jpg",
       "startYear": "Sep 2024",
       "endYear": "Nov 2024",
-      "summary": "Simulated a liquid desiccant evaporative cooling system in EES to quantify exergy destruction and evaluate second-law thermodynamic efficiency, identifying optimal parameter ranges - including solution concentration, air flow rate, and regeneration temperature - that maximized system COP; validated against published experimental benchmarks from peer-reviewed literature. \n Tools: Engineering Equation Solver (EES), Simulink"
+      "summary": "For this project, I worked off a peer-reviewed study on liquid desiccant evaporative cooling and rebuilt its simulation from scratch in EES and Simulink to see if I could reproduce the published results. Once validated, I went a step further, running my own input parameters to explore how factors like solution concentration, air flow rate, and regeneration temperature affected system performance, using exergy analysis to identify where the real thermodynamic losses were happening. The process helped me pinpoint the optimal operating ranges that maximized COP, and it gave me a much deeper appreciation for how second-law thinking can reveal inefficiencies that a basic energy balance would miss entirely."
     },
     {
       "name": "Co-authored Research Paper – Vendor Selection Methodologies",
@@ -130,5 +133,20 @@
     ["English", "warning"],
     ["Hindi", "info"],
     ["Gujarati", "danger"]
+  ],
+  "certificates": [
+    {
+      "title": "Financial Institutions and Markets",
+      "startYear":"Jan 2024",
+      "endYear":"April 2024",
+      "photo": "https://plain-enam-prod-public.komododecks.com/202606/25/Ow5MxvJB3t0wIjO2QVcU/image.png",
+      "description": "Completed this 12-week certification to build a foundational understanding of how financial institutions and markets operate. From investment behavior to risk assessment to the economic forces that drive decision-making. Learning how money, markets, and institutions interact has been just as valuable as my technical training, giving me a broader lens to think about cost-efficiency, return on investment, and the business reasoning behind major engineering and manufacturing decisions. It's part of a deliberate effort to grow beyond a single discipline and understand the bigger picture behind how products and businesses succeed."
+    },
+    {
+      "title": "TVAS - The Promise of Green Hydrogen: A Comprehensive Overview",
+      "startYear":"May 18, 2024",
+      "photo": "https://plain-enam-prod-public.komododecks.com/202606/25/PRQGQKxlt4nkmYYSI0Hd/image.png",
+      "description": "Undertook this training program with TPSDI-Mundra to build a clear understanding of green hydrogen as a clean energy solution, how it's produced, stored, and applied across industries, and the role it's expected to play in decarbonization efforts going forward. Going through this program helped me connect the dots between energy systems and sustainable manufacturing, an area I see becoming increasingly important in mechanical and industrial engineering. It's part of how I'm staying current with emerging energy technologies shaping the future of the field."
+    }
   ]
 }

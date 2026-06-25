@@ -12618,11 +12618,14 @@ pre .code {
 }
 
 .header .header-content .header-subtitle {
+  position: relative;
   font-size: calc(10px + (22 - 10) * ((100vw - 300px) / (1300 - 300)));
   letter-spacing: calc(1px + (7 - 1) * ((100vw - 300px) / (1300 - 300)));
-  opacity: 0.8;
+  /* opacity: 0.9; */
   margin-top: -10px;
   margin-bottom: 20px;
+  z-index: 1000;
+  font-weight: 200;
 }
 
 .header .header-content .btn {
